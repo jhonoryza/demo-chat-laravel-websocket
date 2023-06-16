@@ -9,6 +9,8 @@ aplikasi demo realtime chat menggunakan laravel websocket.
 ## Memulai
 - composer install
 - composer update psr/http-message:"1.1"
+- npm install
+- npm run build
 - cp .env.example .env
 - `php artisan migrate::fresh --seed`
 - `php artisan serve`
