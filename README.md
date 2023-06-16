@@ -5,6 +5,7 @@ aplikasi demo realtime chat menggunakan laravel websocket.
 - laravel 9
 - php 8.0
 - laravel breeze using blade (for UI and auth scaffolding)
+- composer update psr/http-message:"1.1"
 
 ## Memulai
 - cp .env.example .env
