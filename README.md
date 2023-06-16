@@ -15,6 +15,13 @@ aplikasi demo realtime chat menggunakan laravel websocket.
 
 buka http://localhost:8000/login ambil salah satu email pada database, password: `password`
 
+### websocket dashboard
+- buka http://localhost:8000/laravel-websockets
+
+### channel
+- private - no auth
+- presence - user know each other
+- private - user dont know each other
 
 #### reference
 1. laravel websocket (free) php - (pusher compatible) https://github.com/beyondcode/laravel-websockets
