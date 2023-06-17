@@ -7,18 +7,28 @@ aplikasi demo realtime chat menggunakan laravel websocket.
 - laravel breeze using blade (for UI and auth scaffolding)
 
 ## Memulai
-- composer install
-- composer update psr/http-message:"1.1"
-- npm install
-- npm run build
-- cp .env.example .env
+- `composer install`
+- `composer update psr/http-message:"1.1"`
+- `npm install`
+- `cp .env.example .env`
 - `php artisan migrate::fresh --seed`
 - `php artisan serve`
+- `php artisan websocket:serve --host=0.0.0.0 -q`
+- `npm run build`
 
 buka http://localhost:8000/login ambil salah satu email pada database, password: `password`
 
 ### websocket dashboard
 - buka http://localhost:8000/laravel-websockets
+
+### catatan
+- jika ada perubahan APP_URL di local env adjust file vite.config.js bagian host 
+```
+server: {
+          https: false,
+          host: 'demo-chat-laravel-websocket.test',
+        }
+```
 
 ### channel
 - private - no auth
