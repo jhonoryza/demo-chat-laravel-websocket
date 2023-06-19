@@ -2,7 +2,7 @@
 aplikasi demo realtime chat menggunakan laravel websocket.
 
 ## ERD
-![url](https://im.ge/i/icgGMF)
+[![realtime-chat-design](https://i.im.ge/2023/06/19/icgGMF.realtime-chat-design.png)](https://im.ge/i/icgGMF)
 
 ## requirement
 - laravel 9
