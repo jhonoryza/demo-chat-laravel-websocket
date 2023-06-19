@@ -1,6 +1,9 @@
 ### laravel chat app for demo purposes
 aplikasi demo realtime chat menggunakan laravel websocket.
 
+## ERD
+![url](https://im.ge/i/icgGMF)
+
 ## requirement
 - laravel 9
 - php 8.0
