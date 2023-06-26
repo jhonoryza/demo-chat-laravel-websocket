@@ -12,7 +12,7 @@ class Participant extends Model
 
     protected $fillable = [
         'user_id',
-        'text'
+        'text',
     ];
 
     public function user(): BelongsTo

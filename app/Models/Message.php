@@ -13,7 +13,7 @@ class Message extends Model
     protected $fillable = [
         'group_id',
         'user_id',
-        'message'
+        'message',
     ];
 
     public function group(): BelongsTo

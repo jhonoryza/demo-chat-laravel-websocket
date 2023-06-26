@@ -18,9 +18,9 @@ return new class extends Migration
 
             $table->unsignedBigInteger('sender_id');
             $table->unsignedBigInteger('conversation_id');
-            
+
             $table->index('conversation_id');
-            
+
             $table->text('message');
 
             $table->timestamps();

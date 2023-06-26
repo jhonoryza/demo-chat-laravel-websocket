@@ -11,10 +11,14 @@ class Conversation extends Model
 
     protected $fillable = [
         'name',
-        'is_group'
+        'is_group',
     ];
 
     protected $casts = [
-        'is_group' => 'boolean'
+        'is_group' => 'boolean',
     ];
+
+    public function getUpdatedAt($PARAMETERS)
+    {
+    }
 }
